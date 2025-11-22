@@ -1,0 +1,10 @@
+name: base
+channels:
+  - salilab
+  - conda-forge
+dependencies:
+  - python=3.12
+  - conda[version='>=25.3.0']
+  - mamba[version='>=2.1.1']
+  - pip
+prefix: /home/hari/miniforge3
